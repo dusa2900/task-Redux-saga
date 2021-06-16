@@ -23,7 +23,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "concurrently \"npm start \" \" json-server --port 4000 data.json\"",
+    "goutham": "set port=9999 && react-scripts start",
+    "start": "concurrently \" npm goutham \" \" json-server --port 4000 data.json\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
